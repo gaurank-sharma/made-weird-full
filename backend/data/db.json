@@ -1,0 +1,257 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "slug": "home-decor",
+      "name": "Home Decor",
+      "count": 24,
+      "tint": "red",
+      "image": "/images/p-vase.jpg"
+    },
+    {
+      "id": 2,
+      "slug": "desk",
+      "name": "Desk Accessories",
+      "count": 31,
+      "tint": "blue",
+      "image": "/images/p-organizer.jpg"
+    },
+    {
+      "id": 3,
+      "slug": "phone",
+      "name": "Phone Accessories",
+      "count": 12,
+      "tint": "cream",
+      "image": "/images/p-phonestand.jpg"
+    },
+    {
+      "id": 4,
+      "slug": "gaming",
+      "name": "Gaming",
+      "count": 9,
+      "tint": "red",
+      "image": "/images/p-controller.jpg"
+    },
+    {
+      "id": 5,
+      "slug": "organizers",
+      "name": "Organizers",
+      "count": 17,
+      "tint": "blue",
+      "image": "/images/p-dish.jpg"
+    },
+    {
+      "id": 6,
+      "slug": "gifts",
+      "name": "Giftable Objects",
+      "count": 22,
+      "tint": "cream",
+      "image": "/images/p-incense.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Wave Vase",
+      "tagline": "Perfectly unnecessary.",
+      "category": "Home Decor",
+      "price": 1299,
+      "compareAt": 1599,
+      "colors": [
+        { "name": "Weird Red", "hex": "#E41D1D" },
+        { "name": "Bone Cream", "hex": "#F3EEE1" },
+        { "name": "Loud Blue", "hex": "#1558FF" }
+      ],
+      "badge": "NEW DROP",
+      "featured": true,
+      "status": "available",
+      "image": "/images/p-vase.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Tilt Phone Stand",
+      "tagline": "Function, but more fun.",
+      "category": "Phone Accessories",
+      "price": 649,
+      "colors": [
+        { "name": "Loud Blue", "hex": "#1558FF" },
+        { "name": "Weird Red", "hex": "#E41D1D" },
+        { "name": "Ink Black", "hex": "#141414" }
+      ],
+      "badge": "BESTSELLER",
+      "featured": true,
+      "status": "available",
+      "image": "/images/p-phonestand.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Blob Desk Tray",
+      "tagline": "Chaos, contained.",
+      "category": "Organizers",
+      "price": 899,
+      "colors": [
+        { "name": "Bone Cream", "hex": "#F3EEE1" },
+        { "name": "Weird Red", "hex": "#E41D1D" },
+        { "name": "Loud Blue", "hex": "#1558FF" }
+      ],
+      "featured": true,
+      "status": "available",
+      "image": "/images/p-organizer.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Podium Controller Stand",
+      "tagline": "Your controller deserves a throne.",
+      "category": "Gaming",
+      "price": 999,
+      "colors": [
+        { "name": "Weird Red", "hex": "#E41D1D" },
+        { "name": "Ink Black", "hex": "#141414" },
+        { "name": "Loud Blue", "hex": "#1558FF" }
+      ],
+      "badge": "LOW STOCK",
+      "featured": true,
+      "status": "available",
+      "image": "/images/p-controller.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Cable Gremlins (Set of 4)",
+      "tagline": "They eat your cables. Politely.",
+      "category": "Desk Accessories",
+      "price": 399,
+      "colors": [
+        { "name": "Weird Red", "hex": "#E41D1D" },
+        { "name": "Loud Blue", "hex": "#1558FF" },
+        { "name": "Bone Cream", "hex": "#F3EEE1" }
+      ],
+      "featured": false,
+      "status": "available",
+      "image": "/images/p-cableclips.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Squiggle Holder Set",
+      "tagline": "Normal was never the plan.",
+      "category": "Giftable",
+      "price": 749,
+      "colors": [
+        { "name": "Bone Cream", "hex": "#F3EEE1" },
+        { "name": "Weird Red", "hex": "#E41D1D" }
+      ],
+      "featured": false,
+      "status": "available",
+      "image": "/images/p-incense.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Facet Catch-All Dish",
+      "tagline": "For keys, rings and small regrets.",
+      "category": "Organizers",
+      "price": 549,
+      "colors": [
+        { "name": "Loud Blue", "hex": "#1558FF" },
+        { "name": "Weird Red", "hex": "#E41D1D" },
+        { "name": "Bone Cream", "hex": "#F3EEE1" }
+      ],
+      "featured": false,
+      "status": "available",
+      "image": "/images/p-dish.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Loop Lamp",
+      "tagline": "Bold by nature. Weird by choice.",
+      "category": "Home Decor",
+      "price": 2499,
+      "colors": [
+        { "name": "Loud Blue", "hex": "#1558FF" },
+        { "name": "Bone Cream", "hex": "#F3EEE1" }
+      ],
+      "badge": "LIMITED",
+      "featured": false,
+      "status": "available",
+      "image": "/images/p-lamp.jpg"
+    }
+  ],
+  "prototypes": [
+    {
+      "id": 1,
+      "name": "Totem Speaker Dock",
+      "tagline": "Currently arguing with a 3D printer.",
+      "category": "Desk Accessories",
+      "colors": [
+        { "name": "Weird Red", "hex": "#E41D1D" },
+        { "name": "Loud Blue", "hex": "#1558FF" }
+      ],
+      "status": "unreleased",
+      "image": "/images/p-lamp.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Monster Mug Hugger",
+      "tagline": "Prototype #7. Still weird.",
+      "category": "Giftable",
+      "colors": [
+        { "name": "Bone Cream", "hex": "#F3EEE1" },
+        { "name": "Weird Red", "hex": "#E41D1D" }
+      ],
+      "status": "unreleased",
+      "image": "/images/p-incense.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Grip Headset Hook",
+      "tagline": "Coming for your desk edge.",
+      "category": "Gaming",
+      "colors": [
+        { "name": "Loud Blue", "hex": "#1558FF" },
+        { "name": "Ink Black", "hex": "#141414" }
+      ],
+      "status": "unreleased",
+      "image": "/images/p-dish.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Ananya R.",
+      "product": "Wave Vase",
+      "quote": "Bought it for the shelf, now it's the only thing guests talk about. Colour is insanely good."
+    },
+    {
+      "id": 2,
+      "name": "Kabir M.",
+      "product": "Tilt Phone Stand",
+      "quote": "Chunky, heavy, doesn't slide. My desk finally has a personality."
+    },
+    {
+      "id": 3,
+      "name": "Meher S.",
+      "product": "Blob Desk Tray",
+      "quote": "Perfectly unnecessary and I'd buy three more. Packaging was cute too."
+    }
+  ],
+  "process": [
+    {
+      "id": 1,
+      "step": "Sketch the weird",
+      "description": "Ideas start as doodles, not spreadsheets."
+    },
+    {
+      "id": 2,
+      "step": "Model & test",
+      "description": "We print, break and reprint until it actually works."
+    },
+    {
+      "id": 3,
+      "step": "Print on demand",
+      "description": "Nothing sits in a warehouse. It's made when you order."
+    },
+    {
+      "id": 4,
+      "step": "Hand finished",
+      "description": "Sanded, checked and packed by an actual human."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Anton", "Arial Black", sans-serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --color-ink: oklch(16% 0 0);
+  --color-cream: oklch(96.8% .018 88);
+  --color-cream-deep: oklch(93.6% .028 88);
+  --color-card: oklch(99% .008 88);
+
+  --color-brand-red: oklch(58% .24 27.4);
+  --color-brand-red-foreground: oklch(99% .008 88);
+  --color-brand-blue: oklch(53% .25 262);
+  --color-brand-blue-foreground: oklch(99% .008 88);
+
+  --color-foreground: var(--color-ink);
+  --color-background: var(--color-cream);
+  --color-secondary: var(--color-cream-deep);
+  --color-secondary-foreground: var(--color-ink);
+  --color-primary: var(--color-ink);
+  --color-primary-foreground: var(--color-cream);
+  --color-card-foreground: var(--color-ink);
+  --color-muted-foreground: oklch(45% .01 80);
+  --color-border: var(--color-ink);
+  --color-ring: var(--color-brand-blue);
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.display-xl {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+  line-height: 1.05;
+}
+
+.sticker {
+  border: 3px solid var(--color-ink);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  box-shadow: 3px 3px 0 0 var(--color-ink);
+  padding: 0.2rem 0.65rem;
+  font-size: 0.7rem;
+  font-weight: 900;
+  line-height: 1.4;
+  display: inline-block;
+}
+
+.ink-box {
+  border: 3px solid var(--color-ink);
+  background: var(--color-card);
+}
+
+.ink-shadow-sm {
+  box-shadow: 6px 6px 0 0 var(--color-ink);
+}
+
+.hover-pop {
+  transition: transform 0.18s cubic-bezier(0.2, 0.9, 0.3, 1.4), box-shadow 0.18s;
+}
+
+.hover-pop:hover {
+  box-shadow: 12px 12px 0 0 var(--color-ink);
+  transform: translate(-4px, -4px) rotate(-0.5deg);
+}
+
+.underline-scribble {
+  background-image: linear-gradient(to right, var(--color-brand-red), var(--color-brand-red));
+  background-position: 0 88%;
+  background-repeat: no-repeat;
+  background-size: 100% 0.22em;
+}
+
+.paper {
+  position: relative;
+  background-image:
+    radial-gradient(color-mix(in oklab, var(--color-ink) 6%, transparent) 0.6px, transparent 0.7px),
+    radial-gradient(color-mix(in oklab, var(--color-ink) 4%, transparent) 0.5px, transparent 0.6px);
+  background-position: 0 0, 2px 3px;
+  background-size: 3px 3px, 7px 7px;
+}
+
+.torn-top {
+  clip-path: polygon(0% 14px, 4% 4px, 9% 12px, 14% 2px, 19% 11px, 25% 3px, 31% 13px, 37% 4px, 43% 12px, 49% 2px, 55% 11px, 61% 4px, 67% 13px, 73% 3px, 79% 12px, 85% 2px, 91% 11px, 96% 4px, 100% 12px, 100% 100%, 0% 100%);
+}
+
+.torn-bottom {
+  clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 12px), 96% calc(100% - 4px), 91% calc(100% - 13px), 85% calc(100% - 3px), 79% calc(100% - 12px), 73% calc(100% - 2px), 67% calc(100% - 13px), 61% calc(100% - 4px), 55% calc(100% - 12px), 49% calc(100% - 2px), 43% calc(100% - 11px), 37% calc(100% - 4px), 31% calc(100% - 13px), 25% calc(100% - 3px), 19% calc(100% - 12px), 14% calc(100% - 2px), 9% calc(100% - 11px), 4% calc(100% - 4px), 0% calc(100% - 13px));
+}
+
+.marquee-track {
+  width: max-content;
+  display: flex;
+  animation: mw-marquee 26s linear infinite;
+}
+
+@keyframes mw-marquee {
+  0% { transform: translate(0); }
+  100% { transform: translate(-50%); }
+}
+
+.spin-slow {
+  animation: mw-spin-slow 14s linear infinite;
+}
+
+@keyframes mw-spin-slow {
+  to { transform: rotate(360deg); }
+}
