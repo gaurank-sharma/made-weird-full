@@ -32,6 +32,7 @@ app.use(async (req, res, next) => {
   }
 });
 
+app.get('/', (req, res) => res.json({ status: 'ok', message: 'Made Weird API — see /api/health' }));
 app.get('/api/health', (req, res) => res.json({ status: 'ok', message: 'Made Weird API is running' }));
 
 app.use('/api/products', productsRoutes);
