@@ -172,6 +172,120 @@
       "featured": false,
       "status": "available",
       "image": "/images/p-lamp.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Claw & Order",
+      "tagline": "A cat, a tree and a place for your rings.",
+      "category": "Organizers",
+      "price": 899,
+      "colors": [
+        { "name": "Weird Red", "hex": "#E41D1D" },
+        { "name": "Ink Black", "hex": "#141414" }
+      ],
+      "featured": false,
+      "status": "available",
+      "image": "/images/n1.jpeg"
+    },
+    {
+      "id": 10,
+      "name": "Pixel Drip",
+      "tagline": "Loading... your bedside glow.",
+      "category": "Home Decor",
+      "price": 2199,
+      "colors": [
+        { "name": "Ink Black", "hex": "#141414" },
+        { "name": "Weird Red", "hex": "#E41D1D" }
+      ],
+      "badge": "NEW",
+      "featured": false,
+      "status": "available",
+      "image": "/images/n2.jpeg"
+    },
+    {
+      "id": 11,
+      "name": "Stuff Station",
+      "tagline": "Everything has a place. Mostly.",
+      "category": "Desk Accessories",
+      "price": 749,
+      "colors": [
+        { "name": "Loud Blue", "hex": "#1558FF" },
+        { "name": "Ink Black", "hex": "#141414" }
+      ],
+      "featured": false,
+      "status": "available",
+      "image": "/images/n3.jpeg"
+    },
+    {
+      "id": 12,
+      "name": "Sitting Lamp",
+      "tagline": "It sits. It glows. It judges you.",
+      "category": "Home Decor",
+      "price": 1999,
+      "colors": [
+        { "name": "Loud Blue", "hex": "#1558FF" },
+        { "name": "Bone Cream", "hex": "#F3EEE1" }
+      ],
+      "featured": false,
+      "status": "available",
+      "image": "/images/n4.jpeg"
+    },
+    {
+      "id": 13,
+      "name": "Moon Thingy",
+      "tagline": "One small planter for a plant kind.",
+      "category": "Home Decor",
+      "price": 1199,
+      "colors": [
+        { "name": "Ink Black", "hex": "#141414" },
+        { "name": "Bone Cream", "hex": "#F3EEE1" }
+      ],
+      "badge": "NEW",
+      "featured": false,
+      "status": "available",
+      "image": "/images/n5.jpeg"
+    },
+    {
+      "id": 14,
+      "name": "Pookie Key Chain",
+      "tagline": "Morbidly cute. Cutely morbid.",
+      "category": "Giftable",
+      "price": 249,
+      "colors": [
+        { "name": "Ink Black", "hex": "#141414" },
+        { "name": "Weird Red", "hex": "#E41D1D" }
+      ],
+      "featured": false,
+      "status": "available",
+      "image": "/images/n6.jpeg"
+    },
+    {
+      "id": 15,
+      "name": "Key Dock",
+      "tagline": "Never lose your keys again. Maybe.",
+      "category": "Organizers",
+      "price": 449,
+      "colors": [
+        { "name": "Ink Black", "hex": "#141414" },
+        { "name": "Loud Blue", "hex": "#1558FF" }
+      ],
+      "featured": false,
+      "status": "available",
+      "image": "/images/n7.jpeg"
+    },
+    {
+      "id": 16,
+      "name": "Phone Stand Small",
+      "tagline": "Small stand, big main character energy.",
+      "category": "Phone Accessories",
+      "price": 499,
+      "colors": [
+        { "name": "Ink Black", "hex": "#141414" },
+        { "name": "Weird Red", "hex": "#E41D1D" }
+      ],
+      "featured": false,
+      "status": "available",
+      "image": "/images/n8.jpeg"
     }
   ],
   "prototypes": [
